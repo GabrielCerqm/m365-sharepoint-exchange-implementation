@@ -1,0 +1,95 @@
+# Segredos e arquivos de ambiente
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+*credentials*
+*credenciais*
+*token*
+*password*
+*senha*
+
+# Certificados e chaves
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+
+# Exportações administrativas e relatórios
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.pst
+*.ost
+*.mbox
+*.eml
+*.msg
+*.log
+*.har
+*.evtx
+*.pcap
+*.pcapng
+
+# Backups, dumps e arquivos compactados
+*.bak
+*.backup
+*.dump
+*.sql
+*.zip
+*.7z
+*.rar
+*.tar
+*.tgz
+*.gz
+
+# Configuração potencialmente sensível
+*.tfstate
+*.tfstate.*
+*.publishsettings
+appsettings.*.json
+web.config
+
+# Evidências e documentos originais
+evidence/raw/
+evidencias-brutas/
+private/
+privado/
+client-data/
+dados-cliente/
+exports/
+backups/
+reports/
+relatorios/
+screenshots/raw/
+*.docx
+*.pdf
+
+# Temporários e sistema
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Ferramentas e caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
