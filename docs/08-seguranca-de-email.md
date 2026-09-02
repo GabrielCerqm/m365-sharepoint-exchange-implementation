@@ -44,15 +44,8 @@ Uma consulta DNS confirmou a publicação do registro. A política observada cor
 
 Durante a revisão da zona DNS, foram identificados registros associados ao ambiente anterior. Eles não foram removidos porque suas dependências não estavam integralmente inventariadas e uma alteração poderia causar impacto em produção.
 
-Essa decisão representa controle de mudança. Uma futura limpeza deverá exigir:
-
-- inventário das dependências;
-- exportação ou backup da zona;
-- aprovação do cliente;
-- janela de manutenção;
-- plano de reversão;
-- validação posterior.
+Essa decisão representou um controle de mudança. A limpeza dos registros ficou fora do escopo porque dependeria de inventário das dependências, cópia da zona, aprovação, janela de manutenção, plano de reversão e validação posterior.
 
 ## Evidências
 
-As capturas e o PDF originais contêm domínio, IPs, URLs, valores DNS e metadados. Eles são evidências privadas e não devem ser adicionados ao Git.
+As capturas e o PDF originais contêm domínio, IPs, URLs, valores DNS e metadados. Por esse motivo, somente versões anonimizadas foram incorporadas ao portfólio.

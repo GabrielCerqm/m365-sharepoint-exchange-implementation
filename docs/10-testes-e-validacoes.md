@@ -1,8 +1,8 @@
 # 10 — Testes e validações
 
-## Critério de documentação
+## Base de comprovação
 
-Somente verificações sustentadas por declaração do responsável, estado administrativo ou evidência técnica são tratadas como concluídas. Testes não registrados permanecem como não confirmados.
+A documentação considerou como concluídas somente as verificações sustentadas por estado administrativo, evidência técnica ou declaração do responsável pelo ambiente. Atividades sem registro permaneceram classificadas como não confirmadas.
 
 ## Matriz de validação do projeto
 
@@ -13,30 +13,24 @@ Somente verificações sustentadas por declaração do responsável, estado admi
 | Resolução de DMARC | Confirmado | Consulta DNS | Política exata omitida |
 | DKIM no domínio personalizado | Confirmado | Estado válido e habilitado | Seletores omitidos |
 | Caixas de usuário provisionadas | Confirmado | Inventário administrativo privado | Não houve acesso às caixas |
-| Lista de distribuição funcional | Confirmado por declaração e configuração | Estado administrativo | Membros e endereço omitidos |
+| Lista de distribuição funcional | Confirmado | Estado administrativo e declaração do responsável | Membros e endereço omitidos |
 | Site de equipe privado | Confirmado | Estado administrativo | URL e nome omitidos |
 | Grupos de segurança existentes | Confirmado | Inventário administrativo privado | Estrutura real omitida |
 | Permissões por grupos | Confirmado | Inspeção administrativa | Matriz real omitida |
-| Versionamento nas bibliotecas | Confirmado | Amostra visual e declaração do responsável | Um print representa a configuração padronizada |
+| Versionamento nas bibliotecas | Confirmado | Amostra visual e declaração do responsável | Uma captura representa a configuração padronizada |
 | Padrões de Segurança | Confirmado | Estado no Microsoft Entra ID | Políticas detalhadas não exportadas |
 | MFA administrativo | Confirmado | Login autorizado com Microsoft Authenticator | Somente a conta administrativa foi testada |
-| MFA individual dos colaboradores | Não validado interativamente | Restrição de privacidade | Não foram utilizadas credenciais de terceiros |
+| MFA individual dos colaboradores | Não validado interativamente | Restrição de privacidade | Credenciais de terceiros não foram utilizadas |
 | Envio e recebimento em cada caixa | Não confirmado formalmente | Ambiente informado como operacional | Sem acesso individual às caixas |
 | Acesso negativo por todas as funções | Não confirmado formalmente | Configuração inspecionada | Sem teste com cada perfil |
 | Secure Score atualizado | Não confirmado | Evidência atualizada válida não disponível | Valor não incorporado |
 
 ## Validação de MFA
 
-O teste autorizado confirmou o fluxo de senha seguido por Microsoft Authenticator com correspondência numérica. A captura original contém conta, URL e código temporário e, portanto, não pertence ao repositório.
+O teste autorizado confirmou o fluxo de senha seguido pelo Microsoft Authenticator com correspondência numérica. A captura publicada preserva apenas a etapa técnica relevante; conta, URL e código temporário foram removidos.
 
-## Testes que não devem ser simulados retroativamente
+## Limites dos testes
 
-- Login nas contas de colaboradores.
-- Leitura ou envio de mensagens em nome de terceiros.
-- Alterações de permissões apenas para produzir evidência.
-- Remoção de registros DNS legados em produção.
-- Mudança da política DMARC apenas para elevar pontuação.
+Não foram realizados logins nas contas dos colaboradores, leitura ou envio de mensagens em nome de terceiros, alterações de permissões para produzir evidências, remoção de registros DNS legados ou mudança da política DMARC com finalidade documental.
 
-## Validação futura recomendada
-
-Qualquer validação adicional deve utilizar conta de teste autorizada, janela de mudança, critérios de sucesso e plano de reversão. Os resultados devem ser registrados sem dados identificáveis.
+Esses limites refletem a decisão de validar o ambiente sem interferir na produção e sem utilizar credenciais ou dados de terceiros.

@@ -1,35 +1,23 @@
-# 12 — Limitações e pendências
+# 12 — Limitações e decisões do projeto
 
-## Limitações do projeto
+## Limitações registradas
 
-- Não houve migração do histórico de e-mails.
+- O histórico de e-mails do provedor anterior não foi migrado.
 - Não houve migração documental inicial.
-- Não foi realizada validação interativa em contas de colaboradores.
-- Não existe evidência formal de configuração individual do Outlook desktop.
-- Dispositivos móveis não foram configurados como parte da entrega.
-- Não há comprovação de treinamento formal.
-- O OneDrive não foi documentado como implantação independente.
+- As contas dos colaboradores não foram acessadas para validação interativa.
+- A configuração individual do Outlook desktop não foi comprovada.
+- Dispositivos móveis não fizeram parte da entrega.
+- Não houve treinamento formal documentado.
+- O OneDrive não foi registrado como implantação independente.
 - Não foram coletadas métricas quantitativas de benefício.
+- A evidência atualizada do Secure Score não estava disponível para esta versão.
 
-## Pendências operacionais
+## Itens que permaneceram fora da entrega
 
-- Inventariar dependências antes de qualquer limpeza de registros legados.
-- Definir procedimento formal de revisão de acessos.
-- Registrar processo de entrada, mudança e desligamento de usuários.
-- Avaliar periodicamente compartilhamentos e convidados.
-- Obter uma nova evidência privada válida da avaliação de postura, se necessário.
-- Avaliar evolução da política DMARC com base em risco e operação.
+A revisão completa das dependências de DNS legado, a formalização do ciclo de vida de usuários, a auditoria periódica de convidados e a evolução da política DMARC não foram registradas como atividades concluídas.
 
-Esses itens são recomendações ou trabalhos futuros; não são apresentados como entregas concluídas.
-
-## Validações anteriores à publicação
-
-- Revisar todo o histórico do Git.
-- Confirmar que não existem arquivos brutos, anexos ou metadados sensíveis.
-- Realizar revisão humana final.
-
-A divulgação da versão anonimizada foi autorizada. O repositório permanece privado somente durante estas validações finais.
+Esses pontos aparecem apenas para delimitar o estado final conhecido e impedir que o portfólio atribua ao projeto entregas sem comprovação.
 
 ## Risco aceito durante a implantação
 
-Registros legados foram mantidos porque a remoção poderia afetar serviços não inventariados. Essa decisão deve ser reavaliada somente em mudança controlada, com aprovação e reversão previstas.
+Registros legados foram preservados porque a remoção poderia afetar serviços não inventariados. A decisão priorizou continuidade operacional e reversibilidade em um ambiente já em produção.

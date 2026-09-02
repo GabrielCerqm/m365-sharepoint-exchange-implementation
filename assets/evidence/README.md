@@ -1,17 +1,17 @@
-# Evidências visuais tratadas
+# Evidências visuais anonimizadas
 
-Este diretório contém somente versões preparadas para documentação de portfólio. Os arquivos originais e qualquer informação que permita relacionar os rótulos genéricos ao ambiente real permanecem fora do Git.
+Este diretório reúne os registros visuais selecionados para o portfólio. Cada arquivo está associado a uma atividade comprovada do projeto e foi tratado para impedir a identificação do ambiente.
 
-| Arquivo | Finalidade | Elementos preservados | Elementos removidos |
+| Arquivo | Atividade comprovada | Elementos preservados | Elementos removidos |
 |---|---|---|---|
-| `licenciamento-business-basic-anonimizado.jpg` | Contextualizar o licenciamento | Produto e console | Quantidades, datas, usuários e e-mails |
-| `sharepoint-site-equipe-anonimizado.jpg` | Mostrar o tipo de site | Console e modelo do site | Nome, URL, armazenamento, administrador e atividade |
-| `grupos-seguranca-anonimizado.jpg` | Mostrar administração por grupos | Console e recurso utilizado | Nomes reais, quantidades, datas, e-mails e relações |
-| `sharepoint-versionamento-anonimizado.jpg` | Mostrar a configuração documental | Interface e versionamento | Bibliotecas e parâmetros numéricos sensíveis |
-| `entra-padroes-seguranca-anonimizado.jpg` | Mostrar a linha de base de identidade | Estado habilitado | Organização, tenant e conta |
-| `mfa-authenticator-anonimizado.jpg` | Mostrar o fluxo de autenticação | Interface de aprovação | Conta e desafio numérico |
-| `dns-exchange-anonimizado.jpg` | Mostrar a validação DNS | Tipos de registro e integridade | Domínio, provedor, valores, destinos e TTL |
-| `dkim-anonimizado.jpg` | Mostrar a validação DKIM | Estado válido e habilitado | Domínios e dados auxiliares |
-| `dmarc-consulta-anonimizado.jpg` | Mostrar o método de consulta | Cmdlet e resposta TXT | Domínio, resolvedor, TTL e política |
+| `licenciamento-business-basic-anonimizado.jpg` | Administração do licenciamento | Produto e console | Quantidades, datas, usuários e e-mails |
+| `sharepoint-site-equipe-anonimizado.jpg` | Implantação do site de equipe | Console e modelo do site | Nome, URL, armazenamento, administrador e atividade |
+| `grupos-seguranca-anonimizado.jpg` | Administração de acesso por grupos | Console e recurso utilizado | Nomes reais, quantidades, datas, e-mails e relações |
+| `sharepoint-versionamento-anonimizado.jpg` | Configuração do versionamento | Interface e estado do recurso | Bibliotecas e parâmetros numéricos sensíveis |
+| `entra-padroes-seguranca-anonimizado.jpg` | Habilitação da linha de base de identidade | Estado habilitado | Organização, tenant e conta |
+| `mfa-authenticator-anonimizado.jpg` | Validação administrativa de MFA | Interface de aprovação | Conta e desafio numérico |
+| `dns-exchange-anonimizado.jpg` | Validação dos registros do Exchange Online | Tipos de registro e integridade | Domínio, provedor, valores, destinos e TTL |
+| `dkim-anonimizado.jpg` | Validação do DKIM | Estado válido e habilitado | Domínios e dados auxiliares |
+| `dmarc-consulta-anonimizado.jpg` | Consulta do DMARC por PowerShell | Cmdlet e resposta TXT | Domínio, resolvedor, TTL e política |
 
-As capturas são guias visuais tratados. Elas não constituem inventário técnico completo, não revelam a matriz de acesso e não substituem as evidências privadas do projeto.
+As capturas funcionam como evidências do trabalho executado. Elas não constituem inventário técnico nem reprodução da configuração real.

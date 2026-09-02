@@ -1,22 +1,23 @@
-# Recursos visuais
+# Recursos visuais do projeto
 
-Este diretório é reservado exclusivamente para recursos preparados para publicação.
+## Conjunto publicado
 
-## Conteúdo atual
+O diretório `evidence/` reúne nove capturas tratadas que registram atividades executadas no Microsoft 365, Microsoft Entra ID, Exchange Online e SharePoint Online.
 
-`evidence/` contém uma seleção pequena de capturas tratadas para demonstrar visualmente as interfaces e verificações utilizadas. Nenhum arquivo original pertence ao repositório.
+Nenhum arquivo original foi incluído. As versões publicadas foram geradas novamente, sem metadados, e tiveram removidos nomes, contas, domínios, URLs, quantidades, datas, valores DNS, parâmetros operacionais e relações de acesso.
 
-Os arquivos foram exportados como novas imagens, com metadados removidos. Nomes, contas, domínios, URLs, quantidades, datas, valores DNS, parâmetros operacionais e relações de acesso foram omitidos ou substituídos por elementos genéricos.
+## Curadoria realizada
 
-## Requisitos para qualquer imagem
+A seleção priorizou evidências que acrescentavam contexto técnico ao estudo de caso:
 
-- origem e finalidade documentadas;
-- conteúdo necessário para comprovar uma atividade;
-- remoção completa de dados identificáveis;
-- remoção de barra de endereço, tenant, conta e avatares;
-- remoção de valores de configuração e relações de acesso;
-- metadados eliminados;
-- revisão humana antes do commit;
-- autorização de publicação confirmada.
+- licenciamento administrado;
+- site de equipe implantado;
+- grupos de segurança utilizados;
+- versionamento configurado;
+- linha de base de identidade habilitada;
+- fluxo de MFA validado;
+- registros DNS verificados;
+- DKIM habilitado;
+- DMARC consultado por PowerShell.
 
-Arquivos brutos e a correspondência entre dados reais e rótulos genéricos devem permanecer fora do Git.
+Listas de usuários, caixas, documentos, permissões exclusivas e painéis com valores reais permaneceram fora do repositório.

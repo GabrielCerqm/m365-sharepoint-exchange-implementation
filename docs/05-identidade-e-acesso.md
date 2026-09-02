@@ -6,7 +6,7 @@ As contas de usuário foram provisionadas no Microsoft 365 e receberam licenciam
 
 ## Controle de acesso
 
-O SharePoint foi organizado utilizando grupos associados a funções. O modelo público pode ser representado assim:
+O SharePoint foi organizado utilizando grupos associados a funções. A representação anonimizada do modelo adotado é:
 
 | Elemento genérico | Papel |
 |---|---|
@@ -39,7 +39,7 @@ O método observado na validação administrativa foi:
 
 O teste foi realizado somente na conta administrativa autorizada. Não foram acessadas contas de colaboradores. Portanto, a documentação diferencia a configuração organizacional habilitada da validação interativa individual.
 
-## Princípios de segurança
+## Controles observados
 
 - Administração por grupos.
 - Identidade administrativa dedicada.

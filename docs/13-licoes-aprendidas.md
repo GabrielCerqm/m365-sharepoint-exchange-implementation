@@ -1,29 +1,29 @@
-# 13 — Lições aprendidas
+# 13 — Análise técnica do projeto
 
 ## Precisão do escopo
 
-Implantação, transição e migração de dados são atividades diferentes. Documentar corretamente essa distinção evita superestimar a entrega e torna as limitações compreensíveis.
+O projeto reforçou a distinção entre implantação, transição de serviço e migração de dados. O ambiente recebeu novos serviços, mas os históricos de e-mail e documentos permaneceram fora do escopo.
 
 ## Administração por grupos
 
-Associar funções a grupos reduz o esforço de manutenção e favorece revisões de acesso. Ainda assim, exceções e associações devem ser auditadas periodicamente em documentação privada.
+A associação das funções a grupos reduziu a dependência de permissões individuais e tornou a estrutura de acesso mais compreensível. As exceções reais permaneceram na documentação privada.
 
 ## DNS em produção
 
-Um registro aparentemente antigo pode atender uma dependência não documentada. A ausência de certeza não deve ser resolvida por exclusão imediata. Inventário, backup, aprovação, janela de mudança e rollback são partes da solução técnica.
+A presença de registros legados sem dependências integralmente inventariadas levou à decisão de preservá-los. A continuidade do ambiente teve prioridade sobre uma limpeza sem garantia de reversão.
 
 ## Validação responsável
 
-Comprovar um serviço não exige acessar dados pessoais de terceiros. Estados administrativos, contas de teste e testes autorizados devem ser priorizados.
+A comprovação técnica foi obtida por estados administrativos, consultas DNS e uma conta administrativa autorizada. Não houve necessidade de acessar contas ou conteúdo dos colaboradores.
 
 ## Segurança de identidade
 
-Uma linha de base nativa oferece proteção inicial, mas não substitui governança contínua, revisão de privilégios e licenciamento adequado para necessidades avançadas.
+Os Padrões de Segurança forneceram a linha de base compatível com o licenciamento disponível. O projeto não atribui ao ambiente controles avançados que não foram comprovados.
 
 ## Evidência e confidencialidade
 
-Capturas administrativas contêm mais informações do que o elemento que se deseja provar. Texto, tabelas genéricas e diagramas são frequentemente evidências de portfólio mais seguras do que imagens reais.
+As capturas administrativas exigiram tratamento além de simples recorte. A versão de portfólio combinou imagens anonimizadas, tabelas e diagramas para demonstrar o trabalho sem reproduzir o ambiente.
 
 ## Segurança de e-mail
 
-SPF, DKIM e DMARC são controles complementares. A existência dos registros deve ser acompanhada por revisão e maturação controlada, sem representar a configuração inicial como proteção absoluta.
+SPF, DKIM e DMARC foram tratados como controles complementares. A política inicial observada foi documentada sem ser apresentada como proteção absoluta.

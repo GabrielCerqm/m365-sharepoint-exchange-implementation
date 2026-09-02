@@ -1,40 +1,27 @@
-# 11 — Boas práticas de segurança
+# 11 — Controles e postura de segurança
 
-## Práticas efetivamente adotadas
+## Controles implementados
 
-- Linha de base de segurança habilitada no Microsoft Entra ID.
+- Padrões de Segurança habilitados no Microsoft Entra ID.
 - MFA administrativo com Microsoft Authenticator.
 - Controle de acesso documental orientado a grupos.
 - Site de equipe privado.
-- Versionamento nas bibliotecas.
-- SPF, DKIM e DMARC no domínio corporativo.
-- Separação entre evidências privadas e documentação pública.
-- Ausência de acesso às caixas dos colaboradores durante a validação.
-- Preservação cautelosa de configurações de produção com dependências incertas.
+- Versionamento habilitado nas bibliotecas.
+- SPF, DKIM e DMARC configurados no domínio corporativo.
+- Separação entre evidências privadas e documentação de portfólio.
+- Validação sem acesso às caixas dos colaboradores.
+- Preservação de configurações de produção com dependências incertas.
 
-## Recomendações futuras
+## Restrições identificadas
 
-Os itens abaixo são recomendações e não devem ser descritos como implementados:
+A linha de base disponível não foi apresentada como equivalente a uma arquitetura avançada de identidade. Não houve evidência de políticas personalizadas de Acesso Condicional, Identity Protection ou revisão automatizada de privilégios.
 
-- revisar periodicamente membros de grupos e proprietários;
-- revisar compartilhamentos externos e convidados;
-- utilizar conta administrativa separada da conta de uso cotidiano;
-- manter mais de um método de recuperação administrativa controlado;
-- revisar a postura do Microsoft Secure Score em ciclos definidos;
-- avaliar licenciamento para controles adicionais de identidade, quando necessário;
-- estabelecer processo formal de admissão, movimentação e desligamento;
-- registrar alterações de DNS com aprovação e plano de reversão;
-- revisar a política DMARC após período de observação e análise de impacto;
-- testar restauração de documentos sem utilizar conteúdo real no portfólio;
-- formalizar revisão periódica de permissões;
-- manter inventário privado dos ativos e objetos administrativos.
+A validação interativa de MFA ficou restrita à conta administrativa. O modelo de permissões foi inspecionado administrativamente, mas não foram executados testes negativos com todos os perfis funcionais.
 
 ## Menor privilégio
 
-O uso de grupos simplifica a administração, mas não garante por si só o menor privilégio. Esse princípio exige revisão periódica das associações, dos níveis de permissão e das exceções existentes.
+A administração por grupos reduziu concessões individuais e organizou o acesso por função. A documentação não afirma conformidade integral com menor privilégio porque as associações, exceções e revisões periódicas não foram auditadas de forma completa.
 
 ## Secure Score
 
-O Microsoft Secure Score foi utilizado como referência de postura e priorização. Ele não deve ser apresentado como garantia de segurança, certificação ou comprovação isolada de que todas as recomendações foram implementadas manualmente.
-
-Algumas ações podem ser reconhecidas por controles equivalentes ou configurações padrão. Por isso, a documentação não atribui políticas avançadas sem evidência direta e licenciamento compatível.
+O Microsoft Secure Score foi utilizado como referência para avaliação da postura. A pontuação não foi apresentada como certificação ou garantia de segurança, e nenhuma recomendação foi considerada implementada sem evidência direta e licenciamento compatível.

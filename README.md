@@ -80,7 +80,7 @@ Nenhum nome, domínio, endereço, grupo, biblioteca, pasta ou parâmetro real do
 
 ## Evidências visuais tratadas
 
-Uma seleção reduzida de capturas foi incluída para contextualizar a execução prática. Todas foram recortadas ou reconstruídas para remover nomes, contas, domínios, URLs, quantidades, valores DNS, datas, relações de acesso e demais dados operacionais. Elas funcionam como guia visual e não substituem os registros técnicos privados do projeto.
+Uma seleção reduzida de capturas foi incluída para contextualizar a execução prática. Todas foram recortadas ou reconstruídas para remover nomes, contas, domínios, URLs, quantidades, valores DNS, datas, relações de acesso e demais dados operacionais. Elas registram visualmente atividades comprovadas do projeto sem reproduzir o ambiente real.
 
 ### Administração e colaboração
 
@@ -96,7 +96,7 @@ Uma seleção reduzida de capturas foi incluída para contextualizar a execuçã
 
 ![DKIM anonimizado](assets/evidence/dkim-anonimizado.jpg)
 
-A [galeria completa e suas limitações](docs/14-evidencias-publicas.md) registra as demais capturas tratadas. Nenhum arquivo original foi incluído no Git.
+A [galeria de evidências visuais](docs/14-evidencias-publicas.md) reúne as demais capturas tratadas e informa o que cada uma comprova. Nenhum arquivo original foi incluído no Git.
 
 ## Arquitetura lógica
 
@@ -130,7 +130,7 @@ A mudança para o Exchange Online foi tratada como transição de serviço, e n�
 
 O teste interativo de MFA foi realizado somente em uma conta administrativa autorizada. Não foram acessadas contas ou caixas de colaboradores. As demais validações foram limitadas ao estado administrativo do ambiente e ao uso operacional informado pelo responsável.
 
-Consulte [testes e validações](docs/10-testes-e-validacoes.md) e [transição de serviços](docs/09-transicao-de-servicos.md).
+Os detalhes estão registrados em [testes e validações](docs/10-testes-e-validacoes.md) e [transição de serviços](docs/09-transicao-de-servicos.md).
 
 ## Resultados comprovados
 
@@ -166,9 +166,9 @@ Não são apresentadas métricas de redução de incidentes, produtividade ou ec
 - [Segurança de e-mail](docs/08-seguranca-de-email.md)
 - [Transição de serviços](docs/09-transicao-de-servicos.md)
 - [Testes e validações](docs/10-testes-e-validacoes.md)
-- [Boas práticas de segurança](docs/11-boas-praticas-de-seguranca.md)
-- [Limitações e pendências](docs/12-limitacoes-e-pendencias.md)
-- [Evidências públicas](docs/14-evidencias-publicas.md)
+- [Controles e postura de segurança](docs/11-boas-praticas-de-seguranca.md)
+- [Limitações e decisões do projeto](docs/12-limitacoes-e-pendencias.md)
+- [Evidências visuais](docs/14-evidencias-publicas.md)
 - [Operação e suporte](docs/15-operacao-e-suporte.md)
 
 ## Competências demonstradas
@@ -188,10 +188,10 @@ Este repositório apresenta uma versão anonimizada cuja divulgação foi autori
 
 A autorização não abrange dados reais do cliente. Evidências brutas, inventários, registros DNS, nomes, contas, estruturas de acesso e configurações que possam facilitar o reconhecimento do ambiente permanecem fora deste repositório.
 
-Leia [NOTICE.md](NOTICE.md) e [SECURITY.md](SECURITY.md) antes de reutilizar ou publicar qualquer conteúdo.
+Os critérios de confidencialidade e o tratamento aplicado às evidências estão registrados em [NOTICE.md](NOTICE.md) e [SECURITY.md](SECURITY.md).
 
 ## Status
 
 **Implantação concluída em 2026, com suporte administrativo contínuo.**
 
-**Documentação anonimizada autorizada para divulgação. O repositório permanece privado durante a validação final anterior à eventual publicação.**
+**Versão de portfólio concluída e autorizada para divulgação em formato anonimizado.**

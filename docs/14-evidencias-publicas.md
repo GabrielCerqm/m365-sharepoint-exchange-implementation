@@ -1,114 +1,85 @@
-# 14 — Evidências públicas
+# 14 — Evidências visuais
 
-## Estratégia adotada
+## Conjunto publicado
 
-O repositório combina documentação textual, diagramas genéricos e uma seleção reduzida de capturas tratadas. Nenhum arquivo original foi incluído.
+O portfólio combina documentação textual, diagramas anonimizados e nove capturas tratadas. As imagens registram interfaces e verificações efetivamente utilizadas no projeto, sem reproduzir identificadores ou valores do ambiente.
 
-As imagens abaixo têm finalidade ilustrativa e demonstram as interfaces e os tipos de verificação utilizados. Tarjas e substituições eliminam dados do cliente e, por isso, as capturas não devem ser usadas como inventário, matriz de acesso ou reprodução exata da configuração privada.
+## Fontes privadas utilizadas
 
-## Evidências privadas analisadas
+A reconstrução técnica considerou telas de domínio e DNS, inventários administrativos, configurações do Exchange Online, sites e bibliotecas do SharePoint, páginas de permissões, versionamento, Padrões de Segurança, MFA, DKIM, DMARC e avaliação de postura.
 
-Foram analisadas, exclusivamente como fonte de reconstrução:
+Os arquivos originais permaneceram fora do repositório porque continham dados pessoais, domínio, URLs, identificadores, valores DNS, estrutura interna, postura de segurança ou metadados.
 
-- telas de domínio e integridade DNS;
-- inventário de licenças e caixas;
-- configuração de lista de distribuição;
-- lista de grupos de segurança;
-- sites e bibliotecas do SharePoint;
-- páginas de permissões;
-- configuração de versionamento;
-- configuração de compartilhamento;
-- habilitação dos Padrões de Segurança;
-- fluxo de MFA administrativo;
-- estado de DKIM;
-- resolução de DMARC;
-- avaliação de postura;
-- exportação em PDF de painel DNS.
-
-Esses arquivos não acompanham o repositório porque contêm dados pessoais, domínio, URLs, IDs, valores DNS, estrutura interna, postura de segurança ou metadados.
-
-## Galeria tratada
+## Galeria de evidências
 
 ### Licenciamento do serviço
 
 ![Licenciamento anonimizado](../assets/evidence/licenciamento-business-basic-anonimizado.jpg)
 
-Preserva o produto administrado e a tela de licenciamento. Quantidades, datas, usuários e endereços foram omitidos.
+A captura comprova a administração do produto utilizado. Quantidades, datas, usuários e endereços foram removidos.
 
 ### Site de equipe
 
 ![Site de equipe anonimizado](../assets/evidence/sharepoint-site-equipe-anonimizado.jpg)
 
-Preserva o tipo do site. Nome, URL, armazenamento, administração, atividade e demais identificadores foram removidos.
+A captura registra o tipo de site implantado. Nome, URL, armazenamento, administração e atividade foram removidos.
 
 ### Administração por grupos
 
 ![Grupos de segurança anonimizados](../assets/evidence/grupos-seguranca-anonimizado.jpg)
 
-Preserva o uso do recurso de grupos de segurança. Nomes reais, quantidades, endereços, datas e relações de acesso foram removidos ou substituídos por rótulos genéricos.
+A captura registra o uso de grupos de segurança. Nomes, quantidades, endereços, datas e relações de acesso foram removidos ou substituídos por rótulos genéricos.
 
 ### Versionamento documental
 
 ![Versionamento anonimizado](../assets/evidence/sharepoint-versionamento-anonimizado.jpg)
 
-Preserva a interface e a confirmação visual de versionamento. Bibliotecas e parâmetros numéricos capazes de revelar a configuração detalhada foram omitidos.
+A captura comprova o versionamento configurado. Nomes de bibliotecas e parâmetros numéricos sensíveis foram omitidos.
 
 ### Padrões de Segurança
 
 ![Padrões de Segurança anonimizados](../assets/evidence/entra-padroes-seguranca-anonimizado.jpg)
 
-Preserva o estado habilitado do controle confirmado no projeto. Tenant, organização e conta autenticada foram removidos.
+A captura registra o controle habilitado no Microsoft Entra ID. Organização, tenant e conta autenticada foram removidos.
 
 ### Fluxo de MFA
 
 ![MFA anonimizado](../assets/evidence/mfa-authenticator-anonimizado.jpg)
 
-Preserva a etapa de aprovação no Microsoft Authenticator. Conta e desafio numérico foram removidos; a validação foi realizada somente em conta administrativa autorizada.
+A captura registra a aprovação pelo Microsoft Authenticator durante o teste da conta administrativa. A conta e o desafio numérico foram removidos.
 
 ### Validação de registros DNS
 
 ![DNS anonimizado](../assets/evidence/dns-exchange-anonimizado.jpg)
 
-Preserva apenas os tipos de registro e os indicadores visuais de integridade. Domínio, provedor, nomes, destinos, valores e TTL foram removidos.
+A captura registra os tipos de registro e os indicadores de integridade. Domínio, provedor, nomes, destinos, valores e TTL foram removidos.
 
 ### DKIM
 
 ![DKIM anonimizado](../assets/evidence/dkim-anonimizado.jpg)
 
-Preserva o estado válido e habilitado do domínio personalizado. Nome do domínio, domínio automático do tenant e dados auxiliares foram removidos.
+A captura comprova o domínio personalizado em estado válido e habilitado. Os domínios e dados auxiliares foram removidos.
 
 ### Consulta DMARC
 
 ![Consulta DMARC anonimizada](../assets/evidence/dmarc-consulta-anonimizado.jpg)
 
-Preserva o uso do `Resolve-DnsName` e a existência de resposta TXT. Domínio, resolvedor, TTL e política foram removidos integralmente.
+A captura registra o uso do `Resolve-DnsName` e a resposta TXT. Domínio, resolvedor, TTL e política foram removidos.
 
-## Representações públicas complementares
+## Relação entre atividade e evidência
 
-| Evidência técnica | Representação pública |
+| Atividade documentada | Evidência apresentada |
 |---|---|
-| Arquitetura do ambiente | Diagrama Mermaid genérico |
-| Organização documental | Diagrama com bibliotecas fictícias |
+| Arquitetura do ambiente | Diagrama Mermaid anonimizado |
+| Organização documental | Diagrama com bibliotecas genéricas |
 | Fluxo de e-mail | Diagrama conceitual |
-| Segurança de identidade | Capturas tratadas e descrição dos controles confirmados |
-| DNS | Capturas tratadas e tabela de tipos de controles, sem valores |
+| Segurança de identidade | Capturas tratadas e estado dos controles |
+| Configuração de DNS | Capturas tratadas, sem valores reais |
 | Testes | Matriz de validação com limitações |
-| Permissões | Explicação de administração por grupos |
+| Permissões | Descrição do modelo por grupos |
 
-## Capturas deliberadamente excluídas
+## Evidências não incorporadas
 
-Não foram incluídas telas contendo:
+Ficaram fora do repositório as capturas com listas de usuários, caixas, aliases, documentos, membros de listas, proprietários do site, permissões exclusivas, compartilhamento externo detalhado, pontuação de postura e painel original do provedor DNS.
 
-- listas de usuários, caixas ou endereços;
-- inventário de aliases e respectivas caixas;
-- documentos, arquivos ou pastas reais;
-- lista de distribuição e seus membros;
-- proprietários do site;
-- permissões exclusivas ou matriz de acesso;
-- configuração detalhada de compartilhamento externo;
-- pontuação ou recomendações detalhadas de postura;
-- painel ou exportação original do provedor DNS.
-
-## Regra para novas imagens
-
-Uma imagem só poderá ser adicionada se for necessária, integralmente anonimizada, livre de metadados e aprovada em revisão humana. A simples aplicação de desfoque ou tarja não é suficiente quando o contexto ainda permite identificar o ambiente. A versão anonimizada foi autorizada para divulgação. Novas imagens continuam condicionadas à revisão humana e às mesmas exigências de anonimização.
+A exclusão desses arquivos não reduz o escopo técnico documentado; ela preserva a confidencialidade e impede a associação do portfólio ao ambiente real.

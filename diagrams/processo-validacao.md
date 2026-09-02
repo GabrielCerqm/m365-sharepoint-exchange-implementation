@@ -1,12 +1,12 @@
-# Processo de validação
+# Processo de validação adotado
 
 ```mermaid
 flowchart TB
-    SCOPE["Definir escopo autorizado"] --> ADMIN["Verificar estado administrativo"]
-    ADMIN --> SAFE["Executar teste não invasivo"]
-    SAFE --> RECORD["Registrar resultado e limitação"]
-    RECORD --> REVIEW["Revisar confidencialidade"]
-    REVIEW --> OUTPUT["Produzir evidência genérica"]
+    SCOPE["Escopo autorizado"] --> ADMIN["Estado administrativo verificado"]
+    ADMIN --> SAFE["Teste não invasivo executado"]
+    SAFE --> RECORD["Resultado e limitação registrados"]
+    RECORD --> REVIEW["Confidencialidade revisada"]
+    REVIEW --> OUTPUT["Evidência anonimizada produzida"]
 ```
 
-O processo prioriza evidências administrativas e contas autorizadas, sem acesso a conteúdo de terceiros.
+A validação utilizou estados administrativos e uma conta autorizada, sem acesso ao conteúdo ou às credenciais dos colaboradores.
