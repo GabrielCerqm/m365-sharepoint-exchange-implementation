@@ -18,4 +18,4 @@ As evidências brutas e os detalhes operacionais permaneceram em armazenamento p
 
 A divulgação desta versão anonimizada foi autorizada sob a condição de não identificar o cliente nem permitir relacionar o conteúdo ao ambiente atendido.
 
-A autorização não abrange nomes, domínios, contas, inventários, configurações reais, evidências originais ou qualquer outro dado capaz de revelar a organização. O repositório permanece privado durante a validação final anterior à eventual publicação.
+A autorização não abrange nomes, domínios, contas, inventários, configurações reais, evidências originais ou qualquer outro dado capaz de revelar a organização.
