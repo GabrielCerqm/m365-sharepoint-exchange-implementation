@@ -14,7 +14,7 @@ O repositório não contém:
 - evidências administrativas originais;
 - documentos ou conteúdo operacional do cliente.
 
-As evidências brutas e os detalhes operacionais devem permanecer em armazenamento privado, com acesso restrito e política de retenção definida.
+As evidências brutas e os detalhes operacionais permaneceram em armazenamento privado, com acesso restrito e política de retenção definida.
 
 A divulgação desta versão anonimizada foi autorizada sob a condição de não identificar o cliente nem permitir relacionar o conteúdo ao ambiente atendido.
 

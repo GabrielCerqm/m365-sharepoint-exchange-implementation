@@ -25,4 +25,4 @@ A organização utilizava um provedor externo para e-mail e não dispunha de um 
 
 ## Delimitação
 
-O projeto não deve ser descrito como migração completa de dados. A atividade comprovada foi a implantação de novos serviços e a transição do roteamento de e-mail, mantendo o histórico anterior fora do escopo.
+O projeto foi classificado como implantação de novos serviços e transição do roteamento de e-mail. O histórico anterior permaneceu fora do escopo, portanto não houve migração completa de dados.

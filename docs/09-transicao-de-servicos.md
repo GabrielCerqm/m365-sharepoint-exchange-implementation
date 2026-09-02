@@ -2,7 +2,7 @@
 
 ## Classificação correta
 
-A atividade realizada deve ser classificada como implantação e transição do serviço de e-mail. Não houve migração de mensagens históricas nem importação de arquivos PST ou transferência IMAP.
+A atividade realizada foi classificada como implantação e transição do serviço de e-mail. Não houve migração de mensagens históricas, importação de arquivos PST ou transferência IMAP.
 
 Também não houve migração documental inicial, pois não existia um acervo de origem definido para esse fim.
 

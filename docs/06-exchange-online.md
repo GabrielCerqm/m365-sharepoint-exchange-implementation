@@ -10,7 +10,7 @@ O Exchange Online foi utilizado como serviço de e-mail corporativo. Foram provi
 - Endereços alternativos associados a caixas existentes.
 - Lista de distribuição para comunicação funcional.
 
-O inventário de aliases, suas caixas correspondentes, os membros e o proprietário da lista permanecem em documentação privada. A lista de distribuição não deve ser confundida com alias ou caixa compartilhada.
+O inventário de aliases, suas caixas correspondentes, os membros e o proprietário da lista permanecem em documentação privada. No escopo técnico, a lista de distribuição foi registrada separadamente de aliases e caixas compartilhadas.
 
 ## Objetos não configurados
 

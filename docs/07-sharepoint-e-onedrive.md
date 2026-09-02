@@ -25,7 +25,7 @@ Essa representação é ilustrativa. A quantidade, os nomes e as associações n
 - Ausência declarada de concessões diretas como modelo principal.
 - Usuários com nível de edição podem criar, alterar e excluir conteúdo dentro do escopo autorizado.
 
-Permissões exclusivas de pastas ou itens sensíveis foram omitidas integralmente. Elas não devem aparecer em tabelas, diagramas, imagens ou exemplos públicos.
+Permissões exclusivas de pastas ou itens sensíveis foram omitidas integralmente e não constam em tabelas, diagramas, imagens ou exemplos públicos.
 
 ## Versionamento
 
